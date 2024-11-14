@@ -29,5 +29,11 @@ class MainMenu : AppCompatActivity() {
             var intent = Intent(this, NasaAPI::class.java)
             startActivity(intent)
         }
+
+        var roverButton = findViewById<Button>(R.id.roverButton)
+        roverButton.setOnClickListener {
+            var intent = Intent(this, Rover::class.java)
+            startActivity(intent)
+        }
     }
 }
