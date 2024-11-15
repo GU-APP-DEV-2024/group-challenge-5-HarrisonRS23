@@ -10,8 +10,8 @@ import com.bumptech.glide.Glide
 import java.net.URL
 
 
-class ImageCustomAdapter(private val dataSet: ArrayList<NasaAPI.ImageData>) :
-    RecyclerView.Adapter<ImageCustomAdapter.ViewHolder>() {
+class ImageCustomAdapterRover(private val dataSet: ArrayList<Rover.ImageData>) :
+    RecyclerView.Adapter<ImageCustomAdapterRover.ViewHolder>() {
 
     /**
      * Provide a reference to the type of views that you are using
